@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!-- Tambahkan kode kalian di sini -->
+    <header
+      style="background-color: #fff; position: fixed; z-index: 1; width: 100%"
+    >
+      <nav class="container">
+        <h1>Health Center</h1>
+        <ul>
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+          <div style="display: flex; gap: 20px">
+            <button class="btn secondary">Login</button>
+            <button class="btn primary">Daftar</button>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" style="background-color: #66d37e">
+        <div class="container hero">
+          <div class="left">
+            <h1>Perawatan Medis Untuk Keluarga Tercinta</h1>
+            <p>
+              Mulailah dari langkah kecil untuk menerapkan gaya hidup sehat, dan
+              lihat bagaimana keluarga Anda tumbuh bersama. Kami selalu siap
+              melayani keluarga Anda selama 24 jam.
+            </p>
+            <div style="margin-top: 40px">
+              <a
+                class="btn-action"
+                id="link"
+                href="https://skilvul.com"
+                target="_blank"
+                >Daftar Sekarang!</a
+              >
+            </div>
+          </div>
+          <div class="right">
+            <img src="https://i.ibb.co/tDs392k/pana.png" alt="pana" />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="container about">
+        <img src="https://i.ibb.co/8XsCLcQ/cuate.png" alt="cuate" />
+        <div class="about-desc">
+          <h1>Tentang Kami</h1>
+          <p id="description">
+            Health Centre adalah aplikasi web inovatif untuk manajemen rekam
+            medis elektronik yang menyederhanakan pengelolaan data pasien,
+            meningkatkan efisiensi pusat kesehatan, dan meningkatkan keamanan
+            data. Dengan fitur seperti pengelolaan data pasien yang efisien,
+            keamanan data yang kuat, dan skalabilitas yang tinggi, aplikasi ini
+            memudahkan pusat kesehatan untuk beradaptasi dengan era rekam medis
+            digital, meningkatkan perawatan pasien, dan mengelola operasional
+            dengan lebih baik, semuanya dalam satu platform yang terpadu.
+            "Health Centre" membawa masa depan manajemen rekam medis yang lebih
+            efisien dan aman ke pusat kesehatan Anda.
+          </p>
+        </div>
+      </section>
+
+      <section id="banner" class="container banner">
+        <p>
+          Meningkatkan kualitas hidup Anda melalui kesehatan yang lebih baik.
+        </p>
+        <div class="card">
+          <div class="card-item">
+            <img
+              src="https://i.ibb.co/pJf3M0G/map-doctor.png"
+              alt="map-doctor"
+            />
+            <h4>Akses Medis Pemeriksaan Rutin</h4>
+          </div>
+          <div class="card-item">
+            <img
+              src="https://i.ibb.co/3zm8ZjV/vaadin-doctor.png"
+              alt="vaadin-doctor"
+            />
+            <h4>Pengobatan Medis Terpercaya</h4>
+          </div>
+          <div class="card-item">
+            <img
+              src="https://i.ibb.co/Cn6JcMn/uil-ambulance.png"
+              alt="uil-ambulance"
+            />
+            <h4>Bantuan Darurat 24/7</h4>
+          </div>
+        </div>
+      </section>
+
+      <section id="kontak">
+        <h1 style="text-align: center; margin-bottom: 28px; color: #66d37e">
+          Kontak
+        </h1>
+        <div class="container kontak">
+          <form>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Masukkan Nama..."
+            />
+            <input
+              type="text"
+              name="city"
+              id="city"
+              placeholder="Masukkan Kota..."
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Masukkan Email..."
+            />
+            <input
+              type="number"
+              name="zip-code"
+              id="zip-code"
+              placeholder="Masukkan zip kode..."
+            />
+            <label for="" id="check">
+              Dengan ini saya menyatakan data yang diisi pada form ini adalah
+              benar dan telah sesuai
+            </label>
+            <input
+              type="checkbox"
+              name="status"
+              id="status"
+              style="margin-top: -8px"
+            />
+            <button type="submit" class="btn primary" id="submit-form">
+              Submit
+            </button>
+            <div id="warning"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer style="background-color: #66d37e">
+      <div class="container footer">
+        <div class="address">
+          <p>
+            Jalan Sunan Kalijaga No.100, Tanjungpinang, Kepulauan Riau 29123
+          </p>
+          <p>healthcenter10@medis.id</p>
+          <p>0820-2987-9918</p>
+        </div>
+        <div class="link">
+          <a href="#">Beranda</a>
+          <a href="#">Tentang Kami</a>
+          <a href="#">Kontak</a>
+        </div>
+        <div>
+          <p>Sosial media kami</p>
+          <div class="sosmed">
+            <div class="bg-sosmed">
+              <img
+                src="https://i2.wp.com/clipground.com/images/ig-logo.png"
+                alt="ig"
+              />
+            </div>
+            <div class="bg-sosmed">
+              <img
+                src="https://www.facebook.com/images/fb_icon_325x325.png"
+                alt="ig"
+              />
+            </div>
+            <div class="bg-sosmed">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/220px-Logo_of_Twitter.svg.png"
+                alt="ig"
+              />
+            </div>
+            <div class="bg-sosmed">
+              <img
+                src="https://eventkampus.com/data/artikel/1/1399/foto-pengertian-email.png"
+                alt="ig"
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <p>Copyright &copy 2023 Health Center</p>
+          <div
+            style="
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              gap: 8px;
+              margin-top: 14px;
+            "
+          >
+            <img src="https://i.ibb.co/f0ZY4XR/Vector.png" alt="Vector" />
+            <h1>Health Center</h1>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
