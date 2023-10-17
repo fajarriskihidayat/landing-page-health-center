@@ -290,3 +290,22 @@ nav ul button:hover {
   width: 20px;
   height: 20px;
 }
+
+@media (max-width: 1080px) {
+  .footer {
+    margin: 0 24px;
+  }
+}
+
+@media (max-width: 950px) {
+  .footer {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 750px) {
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
